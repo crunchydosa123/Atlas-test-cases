@@ -10,6 +10,9 @@ const webhookSecret = "supersecret123";  // GitHub provides this when setting up
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
+app.get("/", (req, res) => {
+  res.send("Webhook server is running and accessible!");
+});
 // Webhook handler
 app.post("/webhook", (req, res) => {
   const payload = req.body;
