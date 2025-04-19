@@ -1,5 +1,0 @@
-Flask
-PyJWT
-PyGithub
-python-dotenv
-requests

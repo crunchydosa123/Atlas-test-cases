@@ -1,2 +1,6 @@
 .env
-.pem
+**/.env
+*.pem
+**/*.pem
+node_modules
+**/node_modules
